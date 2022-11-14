@@ -1,0 +1,18 @@
+{
+  "name": "quizly-express",
+  "version": "1.0.0",
+  "description": "A quiz app using express, MongoDB, and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Usama Qazi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
