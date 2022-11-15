@@ -1,7 +1,13 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 const path = require('path');
+const { connectDB } = require('./src/db')
+
+
+connectDB();
 
 app.set('view engine', 'ejs')
 // Update the location of the folder for the res.render to use
